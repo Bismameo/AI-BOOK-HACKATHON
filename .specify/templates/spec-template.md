@@ -1,3 +1,7 @@
+<!--
+  **Constitution Alignment**: Ensure all requirements and user stories align with the principles defined in `.specify/memory/constitution.md`.
+-->
+
 # Feature Specification: [FEATURE NAME]
 
 **Feature Branch**: `[###-feature-name]`  

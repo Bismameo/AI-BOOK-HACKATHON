@@ -2,6 +2,10 @@
 
 description: "Task list template for feature implementation"
 ---
+<!--
+  **Constitution Alignment**: Ensure all tasks align with the principles defined in `.specify/memory/constitution.md`.
+  For example, tasks for generating content must include steps for fact-checking using RAG as per the 'Accuracy and Factuality' principle.
+-->
 
 # Tasks: [FEATURE NAME]
 

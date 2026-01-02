@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   [ ] **Purpose and Scope**: Does the plan align with the textbook's defined purpose, audience, and scope?
+*   [ ] **Tone and Style**: Does the planned content adhere to the educational, clear, and inclusive tone?
+*   [ ] **Accuracy and Factuality**: Does the plan include steps for RAG-based fact-checking and citation?
+*   [ ] **Structure and Format**: Does the planned structure match the 10-12 chapter format with required sections?
+*   [ ] **Ethics and Responsibility**: Is the ethics chapter planned, and are ethical considerations integrated?
+*   [ ] **Technical and Practical Focus**: Does the plan include hands-on code examples and interdisciplinary content?
+*   [ ] **Generation and Maintenance**: Does the plan follow the specified generation and maintenance guidelines?
 
 ## Project Structure
 

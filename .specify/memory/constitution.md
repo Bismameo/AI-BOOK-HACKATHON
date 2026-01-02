@@ -1,55 +1,62 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: none → 1.0.0
+- Modified principles: All principles are new.
+- Added sections: All sections are new.
+- Removed sections: None.
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
+# Physical AI and Humanoid Robots Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### 1. Purpose and Scope
+The textbook provides a comprehensive, educational introduction to physical AI (embodied intelligence in the physical world) and humanoid robots.
+- **Target audience**: Undergraduate/graduate students in computer science, robotics, mechanical engineering, and AI; engineers/practitioners entering the field; interested general readers with basic technical background.
+- **Scope**: History, core concepts (perception, actuation, locomotion), AI algorithms (reinforcement learning, computer vision, multimodal models), hardware/mechanics, case studies (e.g., Tesla Optimus, Boston Dynamics Atlas, Figure 01 as of 2026), ethics/safety, societal impact, and future trends.
+- **Balance**: Balance theory, practical examples, code snippets, simulations, and diagrams.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### 2. Tone and Style
+- **Clarity**: Educational, clear, engaging, and accessible: Explain concepts step-by-step, starting from fundamentals before advancing.
+- **Objectivity**: Objective and evidence-based: Present multiple viewpoints on controversial topics (e.g., job displacement, AI safety).
+- **Inclusivity**: Inclusive language: Gender-neutral, bias-free, diverse examples (global contributions to robotics).
+- **Readability**: Concise yet thorough: Aim for readability; use bullet points, numbered lists, tables, and sidebars for key takeaways.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### 3. Accuracy and Factuality
+- **Grounding**: Prioritize factual accuracy: All claims grounded in reliable sources via RAG (Retrieval-Augmented Generation) from the Neon DB knowledge base.
+- **Citations**: Cite sources: Include references/footnotes for key facts, papers, and real-world examples (e.g., IEEE, arXiv, official company reports).
+- **Timeliness**: Up-to-date as of 2026: Include recent advancements (e.g., multimodal foundation models for robotics, latest humanoid deployments).
+- **Verification**: Avoid hallucinations: Cross-verify generated content against retrieved contexts; flag uncertainties.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### 4. Structure and Format
+- **Organization**: Overall structure: 10-12 chapters, plus introduction, glossary, index, appendices (code repositories, further reading).
+- **Chapter Content**: Each chapter: Learning objectives, main content, examples/code snippets/diagrams, exercises/questions, summary, references.
+- **Interactivity**: Interactive elements for Docusaurus: Mermaid diagrams, embedded code blocks (testable where possible), searchable content.
+- **Visuals**: Include descriptive diagrams, photos of real robots, schematics; use alt text for accessibility.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### 5. Ethics and Responsibility
+- **Dedicated Chapter**: Dedicate at least one chapter to ethics: Cover privacy, bias in AI perception, human-robot interaction safety, job impacts, autonomy risks, alignment with human values.
+- **Responsible AI**: Promote responsible AI: Emphasize safety (e.g., Asimov-inspired principles adapted to modern contexts), transparency, fairness, and human oversight.
+- **Transparency**: Note in preface that content is AI-assisted with human oversight, following best practices (e.g., no unverified hallucinations, RAG for grounding).
 
-### [PRINCIPLE_6_NAME]
+### 6. Technical and Practical Focus
+- **Hands-on**: Hands-on orientation: Include executable code examples (Python with libraries like PyTorch, ROS simulations), pseudocode, and simple projects.
+- **Interdisciplinary**: Integrate mechanics, control theory, machine learning, and cognitive science.
+- **Future-oriented**: Discuss open challenges (e.g., general-purpose humanoid dexterity, energy efficiency) and emerging trends (e.g., foundation models for embodied AI).
 
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### 7. Generation and Maintenance Guidelines
+- **Spec-driven**: All tasks/plans/specs reference this constitution.
+- **Iteration**: Allow updates for new developments (e.g., annual editions).
+- **Quality**: Ensure consistency, no plagiarism, proper attribution; validate code snippets where possible.
+- **Format**: Output format: Markdown compatible with Docusaurus; static, open-access friendly.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution serves as the immutable set of governing principles for the project. All generated content, code, diagrams, and decisions must align with these principles. Amendments require documentation, approval, and a migration plan to ensure dependent artifacts remain consistent.
+- All PRs/reviews must verify compliance.
+- Any deviation from these principles must be justified and explicitly approved.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-01-03 | **Last Amended**: 2026-01-03
