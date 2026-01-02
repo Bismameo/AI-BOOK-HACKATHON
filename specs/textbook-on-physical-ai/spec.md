@@ -56,7 +56,7 @@ As a general reader or student, I want to explore the ethical implications and f
 
 - **Content Depth**: How to balance providing enough detail for engineers without overwhelming students? (Mitigation: Use sidebars for advanced topics).
 - **Rapidly Evolving Field**: How does the system handle the fact that information (especially case studies) can become outdated quickly? (Mitigation: The 'Generation and Maintenance' principle in the constitution mandates iterative updates).
-- **Code Execution**: What happens if a provided code snippet has a bug or dependency issue? (Mitigation: Code is for educational purposes; a disclaimer will be added. Snippets will be simple and well-commented).
+- **Code Execution**: What happens if a provided code snippet has a bug or dependency issue? (Mitigation: Bugs will be added to a backlog for review and potential fixes in the next edition.)
 
 ## Requirements *(mandatory)*
 
@@ -71,6 +71,9 @@ As a general reader or student, I want to explore the ethical implications and f
 - **FR-007**: The textbook MUST include a chapter discussing future trends, open challenges, and the potential societal impact of humanoid robots.
 - **FR-008**: The textbook MUST include at least 10 illustrative diagrams and 15 code snippets to clarify complex topics.
 - **FR-009**: The final output MUST be a collection of Markdown files organized into a structure suitable for a Docusaurus project.
+- **FR-010**: Each chapter MUST be structured as a main page, with complex sections implemented as nested sub-pages to facilitate navigation in Docusaurus.
+- **FR-011**: The content generation workflow MUST implement a retry mechanism (2-3 retries) for Gemini API calls, and upon persistent failure, MUST generate a placeholder section with a 'TODO' note to allow for continued processing.
+- **FR-012**: The project MUST adhere to the specific versions for Node.js, Python, and Docusaurus as outlined in the project's prerequisites.
 
 ### Key Entities
 
@@ -80,11 +83,19 @@ As a general reader or student, I want to explore the ethical implications and f
 - **Diagram**: A visual illustration (e.g., Mermaid chart, schematic) that clarifies a technical concept, system architecture, or mechanical component.
 - **Glossary Term**: A key vocabulary word with a clear, concise definition.
 
+## Clarifications
+
+### Session 2026-01-03
+- Q: Which of the following best defines the review process for ensuring accuracy? → A: A human Subject Matter Expert (SME) reviews all RAG-retrieved content against the source before use.
+- Q: How should the textbook's content be structured within Docusaurus to best serve the target audience of students and engineers? → A: Each chapter has a main page, with complex sections as nested sub-pages.
+- Q: If the Gemini API fails during a content generation task, what is the desired recovery behavior? → A: Retry 2-3 times, then generate a placeholder section with a TODO and continue.
+- Q: Are there specific version constraints for the core technologies (e.g., Node.js, Python, Docusaurus) that the project should adhere to? → A: Yes, use versions specified in prerequisites.
+
 ## Success Criteria *(mandatory)*
 
 ### Measurable Outcomes
 
 - **SC-001**: The generated textbook consists of 10-12 distinct chapters in Markdown format, successfully imported into a Docusaurus site.
 - **SC-002**: All functional requirements (FR-001 through FR-008) are met, with content existing for each specified topic.
-- **SC-003**: A review against the RAG knowledge base confirms that at least 95% of factual claims are verifiably accurate.
+- **SC-003**: A human Subject Matter Expert (SME) must review all RAG-retrieved content against the source material, confirming that at least 95% of factual claims are verifiably accurate before final inclusion.
 - **SC-004**: The final output includes a glossary with at least 50 key terms defined.
