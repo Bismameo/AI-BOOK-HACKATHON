@@ -1,0 +1,15 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="60" height="60" fill="white"/>
+<path d="M30 0L30 10" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M20 5L25 10" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M40 5L35 10" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M10 20L0 30" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 40L10 35" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M50 20L60 30" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M55 40L50 35" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M30 60L30 50" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M20 55L25 50" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<path d="M40 55L35 50" stroke="#6A0DAD" stroke-width="2" stroke-linecap="round"/>
+<circle cx="30" cy="30" r="15" stroke="#6A0DAD" stroke-width="2"/>
+<circle cx="30" cy="30" r="5" fill="#6A0DAD"/>
+</svg>
