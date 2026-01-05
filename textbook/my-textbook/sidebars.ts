@@ -16,11 +16,11 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Physical AI & Humanoid Robotics',
+      label: 'AI_BOOK',
       link: {
         type: 'generated-index',
-        title: 'Physical AI & Humanoid Robotics Book',
-        description: 'Explore the comprehensive guide to Physical AI and Humanoid Robotics.',
+        title: 'AI_BOOK Book',
+        description: 'Explore the comprehensive guide to AI_BOOK.',
         slug: '/category/physical-ai-humanoid-robotics',
       },
       items: [

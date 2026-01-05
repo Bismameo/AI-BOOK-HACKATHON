@@ -24,11 +24,11 @@ function HomepageHeader() {
   );
 }
 
-export default function PhysicalAIRoboticsHero(): JSX.Element {
+export default function PhysicalAIRoboticsHero() {
   return (
     <Layout
       title={`Hello from ${useDocusaurusContext().siteConfig.title}`}
-      description="Learn about Physical AI and Humanoid Robotics">
+      description="Learn about AI_BOOK">
       <HomepageHeader />
       <main>
         <section className="container margin-vert--xl">
@@ -37,12 +37,12 @@ export default function PhysicalAIRoboticsHero(): JSX.Element {
               <h2>Welcome to the future of Embodied Intelligence!</h2>
               <p>
                 This book delves into the fascinating world where artificial intelligence meets physical embodiment.
-                Explore the principles, technologies, and applications of Physical AI and Humanoid Robotics,
+                Explore the principles, technologies, and applications of AI_BOOK,
                 from theoretical concepts to practical implementations with cutting-edge tools.
               </p>
               <h3>What you will learn:</h3>
               <ul>
-                <li>The fundamentals of Physical AI and embodied intelligence.</li>
+                <li>The fundamentals of AI_BOOK and embodied intelligence.</li>
                 <li>Mastering ROS 2 for robust robot control.</li>
                 <li>Simulating complex robotic systems with Gazebo and Unity.</li>
                 <li>Developing AI-powered robots using the NVIDIA Isaac Platform.</li>

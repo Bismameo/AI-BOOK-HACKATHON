@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Physical AI & Humanoid Robotics',
-  tagline: 'Embark on a journey into embodied intelligence',
+  title: 'AI_BOOK',
+  tagline: 'AI_BOOK',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -61,10 +61,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Physical AI & Humanoid Robotics',
+      title: 'AI_BOOK',
       items: [
         {
-          to: '/physical-ai-robotics-hero',
+          to: '/',
           label: 'Home',
           position: 'left',
         },

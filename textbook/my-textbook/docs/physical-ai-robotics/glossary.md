@@ -1,6 +1,6 @@
 # Glossary
 
-This glossary provides definitions for key terms used throughout the book on Physical AI & Humanoid Robotics.
+This glossary provides definitions for key terms used throughout the AI_BOOK.
 
 ## A
 **Actuator:** A component of a machine that is responsible for moving and controlling a mechanism or system. It takes energy, usually supplied by electric current, hydraulic fluid pressure, or pneumatic pressure, and converts it into some kind of motion.
@@ -17,4 +17,4 @@ This glossary provides definitions for key terms used throughout the book on Phy
 **Sensor:** A device, module, machine, or subsystem whose purpose is to detect events or changes in its environment and send the information to other electronics, frequently a computer processor.
 
 ---
-[Back to Physical AI & Humanoid Robotics Home](/docs/physical-ai-robotics)
+[Back to AI_BOOK Home](/docs/physical-ai-robotics)
