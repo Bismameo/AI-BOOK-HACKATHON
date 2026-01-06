@@ -1,4 +1,4 @@
-# AI_BOOK
+# PHYSICAL AI & HUMANOID ROBOTICS
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 

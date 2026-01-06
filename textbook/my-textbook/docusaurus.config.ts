@@ -5,8 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'AI_BOOK',
-  tagline: 'AI_BOOK',
+  title: 'PHYSICAL AI & HUMANOID ROBOTICS',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -54,6 +53,15 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('docusaurus-plugin-search-local'),
+      {
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -61,13 +69,12 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'AI_BOOK',
+      logo: {
+        alt: 'PHAI Logo',
+        src: 'img/phai-logo.svg',
+        href: '/book-landing-page',
+      },
       items: [
-        {
-          to: '/',
-          label: 'Home',
-          position: 'left',
-        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',

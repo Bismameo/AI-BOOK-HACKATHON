@@ -1,0 +1,16 @@
+I have stopped the servers. Please follow these instructions carefully:
+
+**1. IMPORTANT SECURITY REMINDER:** Please ensure you have invalidated the old database connection string and are using a new one.
+
+**2. Create and populate the `.env` file:**
+
+*   Navigate to the `server` directory.
+*   Create a new file named `.env`.
+*   Open the `.env` file and add the following line, replacing `"your_new_neon_db_connection_string"` with your new Neon DB connection string:
+    ```
+    DATABASE_URL="your_new_neon_db_connection_string"
+    ```
+
+**3. Tell me when you have created the `.env` file.**
+
+Once you have created the `.env` file, I will restart the servers and we can test the chatbot again.
