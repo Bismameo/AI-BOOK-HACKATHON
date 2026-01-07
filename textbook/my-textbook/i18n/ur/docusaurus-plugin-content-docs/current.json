@@ -1,5 +1,16 @@
 {
-  "sidebar.tutorialSidebar.category.AI_BOOK": "AI_BOOK",
-  "sidebar.tutorialSidebar.category.AI_BOOK.link.title": "AI_BOOK کتاب",
-  "sidebar.tutorialSidebar.category.AI_BOOK.link.description": "AI_BOOK کے جامع گائیڈ کو دریافت کریں۔"
+  "sidebar.tutorialSidebar.category.PHYSICAL AI & HUMANOID ROBOTICS": "[اردو ترجمہ] فزیکل اے آئی اور ہیومنائیڈ روبوٹکس",
+  "sidebar.tutorialSidebar.category.PHYSICAL AI & HUMANOID ROBOTICS.link.title": "[اردو ترجمہ] فزیکل اے آئی اور ہیومنائیڈ روبوٹکس کتاب",
+  "sidebar.tutorialSidebar.category.PHYSICAL AI & HUMANOID ROBOTICS.link.description": "[اردو ترجمہ] فزیکل اے آئی اور ہیومنائیڈ روبوٹکس کے جامع گائیڈ کو دریافت کریں۔",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/index": "[اردو ترجمہ] تعارف",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-1-introduction-to-physical-ai": "[اردو ترجمہ] باب 1: فزیکل اے آئی کا تعارف",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-2-ros2-fundamentals": "[اردو ترجمہ] باب 2: ROS 2 کے بنیادی اصول",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-3-robot-simulation-with-gazebo": "[اردو ترجمہ] باب 3: گیزبو کے ساتھ روبوٹ سمولیشن",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-4-nvidia-isaac-platform": "[اردو ترجمہ] باب 4: این ویڈیا آئزک پلیٹ فارم",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-5-humanoid-robot-development": "[اردو ترجمہ] باب 5: ہیومنائیڈ روبوٹ کی ترقی",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-6-conversational-robotics": "[اردو ترجمہ] باب 6: گفتگو پر مبنی روبوٹکس",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/chapter-7-course-structure-and-hardware-requirements": "[اردو ترجمہ] باب 7: کورس کی ساخت اور ہارڈ ویئر کی ضروریات",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/module-1-ros2": "[اردو ترجمہ] ماڈیول 1: روبوٹک اعصابی نظام (ROS 2)",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/module-2-digital-twin": "[اردو ترجمہ] ماڈیول 2: ڈیجیٹل ٹوئن (گیزیبو اور یونٹی)",
+  "sidebar.tutorialSidebar.doc.physical-ai-robotics/glossary": "[اردو ترجمہ] فرہنگ"
 }
