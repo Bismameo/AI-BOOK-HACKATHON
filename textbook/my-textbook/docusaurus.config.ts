@@ -5,94 +5,85 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'PHYSICAL AI & HUMANOID ROBOTICS',
-  favicon: 'img/favicon.ico',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AI-BOOK-HACKATHON', // Usually your GitHub org/user name.
-  projectName: 'textbook', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'ur'],
-  },
-
-  presets: [
-    [
-      'classic',
-      {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/AI-BOOK-HACKATHON/textbook/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: false, // Disable blog since it's removed
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      } satisfies Preset.Options,
-    ],
-  ],
-
-  plugins: [
-    [
-      require.resolve('docusaurus-plugin-search-local'),
-      {
-        highlightSearchTermsOnTargetPage: true,
+  title: 'PHYSICAL AI & HUMANOID ROBOTICS🤖',
+  favicon: 'img/favicon.ico',    
+      // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+      future: {
+        v4: true, // Improve compatibility with the upcoming Docusaurus v4
       },
-    ],
-  ],
-
-  themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
-    colorMode: {
-      respectPrefersColorScheme: true,
-    },
-    navbar: {
-      logo: {
-        alt: 'PHAI Logo',
-        src: 'img/phai-logo.svg',
-        href: '/book-landing-page',
+    
+      // Set the production url of your site here
+      url: 'https://your-docusaurus-site.example.com',
+      // Set the /<baseUrl>/ pathname under which your site is served
+      // For GitHub pages deployment, it is often '/<projectName>/'
+      baseUrl: '/',
+    
+      // GitHub pages deployment config.
+      // If you aren't using GitHub pages, you don't need these.
+      organizationName: 'AI-BOOK-HACKATHON', // Usually your GitHub org/user name.
+      projectName: 'textbook', // Usually your repo name.
+    
+      onBrokenLinks: 'throw',
+    
+      // Even if you don't use internationalization, you can use this field to set
+      // useful metadata like html lang. For example, if your site is Chinese, you
+      // may want to replace "en" with "zh-Hans".
+      i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'ur'],
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Book',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/AI-BOOK-HACKATHON/textbook',
-          label: 'GitHub',
-          position: 'right',
-        },
+    
+      presets: [
+        [
+          'classic',
+          {
+            docs: {
+              sidebarPath: './sidebars.ts',
+              // Please change this to your repo.
+              // Remove this to remove the "edit this page" links.
+              editUrl:
+                'https://github.com/AI-BOOK-HACKATHON/textbook/tree/main/packages/create-docusaurus/templates/shared/',
+            },
+            blog: false, // Disable blog since it's removed
+            theme: {
+              customCss: './src/css/custom.css',
+            },
+          } satisfies Preset.Options,
+        ],
       ],
-    },
-    footer: {
+    
+      plugins: [
+        [
+          require.resolve('docusaurus-plugin-search-local'),
+          {
+            highlightSearchTermsOnTargetPage: true,
+          },
+        ],
+      ],
+    
+      themeConfig: {
+        // Replace with your project's social card
+        image: 'img/docusaurus-social-card.jpg',
+        colorMode: {
+          respectPrefersColorScheme: true,
+        },
+        navbar: {
+          logo: {
+            alt: 'PHYSICAL AI & HUMANOID ROBOTICS Logo',
+            href: '/docs/physical-ai-robotics',
+            src: 'img/favicon.ico',
+          },
+                items: [
+                  {
+                    type: 'localeDropdown',
+                    position: 'right',
+                  },
+                  {
+                    href: 'https://github.com/AI-BOOK-HACKATHON/textbook',
+                    label: 'GitHub',
+                    position: 'right',
+                  },
+                ],        },    footer: {
       style: 'dark',
       links: [
         {

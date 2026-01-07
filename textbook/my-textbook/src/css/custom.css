@@ -42,7 +42,16 @@
 }
 
 .navbar__search {
-  flex: 1;
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  background-color: var(--ifm-color-primary-darkest);
+}
+
+/* Remove space between navbar title/logo and the first left-aligned item */
+.navbar__items--left .navbar__item {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
